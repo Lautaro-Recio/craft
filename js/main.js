@@ -1,8 +1,10 @@
+
+
 const carousel = [
   {img:"../assets/imgs/carousel1.jpg"},
   {img:"../assets/imgs/carousel2.jpg"},
   {img:"../assets/imgs/carousel3.jpg"},
-
+  {img:"../assets/imgs/carousel5.jpg"},
 ]
 
 function carrousel(array){
@@ -32,3 +34,5 @@ function carrousel(array){
 }
 
 carrousel()
+
+
