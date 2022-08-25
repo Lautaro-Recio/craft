@@ -22,13 +22,20 @@ p{
     z-index: 9999999;
     top: 0;
 }
-.nav-link{
+.nav-link, .dropdown-item{
     font-weight: 600;
 }
-.nav-link:hover{
+.dropdown-menu{
+
+}
+.dropdown-item{
+    color: rgba(0, 0, 0, 0.55);
+}
+.nav-link:hover, .dropdown-item:hover{
     
     color: deeppink;
 }
+
 
 .collapse{
     margin-right: 5%;
@@ -41,7 +48,7 @@ p{
 
 /* Home */
 .home{
-    background-image: url("../assets/imgs/home.jpg");
+    background-image: url("../assets/imgs/niños7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 65%;
@@ -170,7 +177,7 @@ iframe{
 
 .empresa-fotos img{
     width: 25%;
-    padding: 3%;
+    padding: 3% 2%;
 }
 
 
@@ -180,13 +187,15 @@ iframe{
 
 /* Deporte */
 .deporteFotos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    padding: 0% 5% 5% 5%;
+}
+.deporteFotos div{
+    display: flex;
 }
 .deporteFotos img{
     width: 100%;
     height: 100%;
+    padding:2% ;
     
 }
 
@@ -195,32 +204,67 @@ iframe{
 .contacto{
     height: 596px;
 }
+.contacto-local div{
+    background-color: #ffffffad;
+
+}
+.contacto h4, .contacto h5{
+    margin-top: 2%;
+    color: #000000;
+}
 .contacto img{
-    height: 50px;
-    width: 50px;
+    width: 100%;
 }
-.contacto-local h4, .contacto-local h5{
-    margin-top: 5%;
-    color: #dbdbdb;
-}
-.contacto-local{
-    background-image: url("../assets/imgs/local.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.contacto iframe{
+    padding: 22% 0%;
 }
 .contacto-info{
     position: fixed;
     z-index: 9999999999999999999999999999999;
-    top:80%;
-    left: 2%;
+    top:65%;
+    left: 1%;
+    border-radius: 15px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 1% 0%;
   
 }
 .contacto-info div{
+    display: flex;
     margin: 0% 3%;
-}
-.contacto-info img{
-    width: 50px;
+    margin-top: 6%;
+   
 
+}
+.contactoEscondido{
+    opacity: 0%;
+    width: 130px;
+    padding: 5%;
+    color: deeppink;
+}
+a{
+    text-decoration: none;
+
+}
+.contactDiv{
+    background-color: #f5f5f5bb;
+    border-radius: 25px;
+    border: 2px solid deeppink;
+}
+.contactoAparece{
+    opacity: 100% !important;
+}
+
+
+
+.contacto-info img{
+    width: 60px;
+    padding: 0% 2%;
+
+    
+}
+.instagram{
+    padding: 4%;
 }
 
 
@@ -243,8 +287,8 @@ footer div h5{
 {
    /* nav */
     .logoNav{
-        width: 15%;
-        margin-left: 5%;
+        width: 40%;
+        margin-left: 0;
     }   
     /* Home */
     .home{
@@ -296,7 +340,7 @@ footer div h5{
 
     /* primario */
 
-    iframe{
+    .empresarialContainer iframe{
         display: none;
     }
     .seccion p{
@@ -323,9 +367,59 @@ footer div h5{
     .carousel{
         padding: 5%;
     }
-    .contacto-info {
-        display: flex;
+  
+    .contacto iframe{
+        padding: 0% 0%;
     }
-   
+    
+    .contactDiv{
+        background-color: #f5f5f500;
+        border-radius: 0px;
+        border: 2px solid transparent;
+    }
+    .contactoAparece{
+        display: none;
+    }
+    .contactoEscondido{
+        display: none;
+    }
+    .navbar-brand{
+        width: 25%;
+        margin-right: 0%;
+    }
+    .contacto-info{
+        position: relative;
+        display: flex;
+        top:0%;
+        left: 0%;
+        border-radius: 0px;
+        border: 2px solid transparent;
+        padding: 0%;
+        width: 50%;
+    }
+    .contacto-info a{
+        display: flex;
+        margin: 0% 3%;
+    }
+    .contacto-info a img{
+       padding: 20%;
+    }
+    
+    .instagram{
+        padding: 25%;
+    }
+    /* Footer */
+    
+    footer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+    footer div h5{
+        padding: 1%;
+        text-align: center;
+        width: 200px;
+        font-size: 18px;
+    }
     
 }

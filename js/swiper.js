@@ -1,10 +1,10 @@
 const services = [
+    {img:"../assets/imgs/niños11.jpg", name:"sesion craft"},
     {img:"../assets/imgs/niños1.jpg", name:"sesion craft"},
     {img:"../assets/imgs/niños2.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/carousel4.jpg", name:"sesion hiec"},
     {img:"../assets/imgs/niños5.jpg", name:"sesion craft"},
+    {img:"../assets/imgs/niños10.jpg", name:"sesion craft"},
     {img:"../assets/imgs/niños6.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños7.jpg", name:"sesion craft"},
 
 ]
 
