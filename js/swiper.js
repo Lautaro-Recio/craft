@@ -1,6 +1,6 @@
 const services = [
     {img:"./assets/imgs/niños11.jpg", name:"sesion craft"},
-    {img:"./assets/imgs/niños1.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños.jpg", name:"sesion craft"},
     {img:"./assets/imgs/niños2.jpg", name:"sesion craft"},
     {img:"./assets/imgs/niños5.jpg", name:"sesion craft"},
     {img:"./assets/imgs/niños10.jpg", name:"sesion craft"},
