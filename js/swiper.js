@@ -1,10 +1,10 @@
 const services = [
-    {img:"../assets/imgs/niños11.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños1.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños2.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños5.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños10.jpg", name:"sesion craft"},
-    {img:"../assets/imgs/niños6.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños11.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños1.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños2.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños5.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños10.jpg", name:"sesion craft"},
+    {img:"./assets/imgs/niños6.jpg", name:"sesion craft"},
 
 ]
 
@@ -17,7 +17,7 @@ function servicios(){
         div.setAttribute("class", "swiper-slide");
         div.innerHTML = 
                 `
-                    <img src="${serv.img}" alt="${serv.name}">
+                    <img loading="lazy"  src="${serv.img}" alt="${serv.name}">
                 `;
         serviceContainer.appendChild(div)
     }

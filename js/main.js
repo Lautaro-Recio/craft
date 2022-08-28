@@ -15,11 +15,11 @@ contactDiv.addEventListener("mouseleave",()=>{
 
 })
 const carousel = [
-  {img:"../assets/imgs/carousel1.jpg"},
-  {img:"../assets/imgs/carousel2.jpg"},
-  {img:"../assets/imgs/niños8.jpg"},
-  {img:"../assets/imgs/buzos.png"},
-
+    {img:"./assets/imgs/buzos1.png"},
+    {img:"./assets/imgs/buzos2.png"},
+    {img:"./assets/imgs/buzos3.png"},
+    {img:"./assets/imgs/buzos4.png"},
+    {img:"./assets/imgs/buzos5.png"},
 ]
 
 function carrousel(array){
@@ -41,7 +41,7 @@ function carrousel(array){
 
             }
             div.innerHTML = `
-               <img src="${img.img}" class="d-block w-100" alt="...">
+               <img loading="lazy"  src="${img.img}" class="d-block w-100" alt="...">
             `;
             carouselByID.appendChild(div)
         
