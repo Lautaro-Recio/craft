@@ -15,7 +15,7 @@ contactDiv.addEventListener("mouseleave",()=>{
 
 })
 const carousel = [
-    {img:"./assets/imgs/buzos1.png"},
+    {img:"./assets/imgs/buzos1.jpg"},
     {img:"./assets/imgs/buzos2.png"},
     {img:"./assets/imgs/buzos3.png"},
     {img:"./assets/imgs/buzos4.png"},
