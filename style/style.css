@@ -161,7 +161,7 @@ p{
 }
 .carousel-item img{
     margin-top: 20%;
-    height: 400px;
+    height: 320px;
 }
 
 .primario-fotos img:hover, .empresa-fotos img:hover, .deporteFotos img:hover, .hoverIMG:hover{
@@ -315,7 +315,7 @@ footer div h5{
     /* Home */
     .home{
         background-image: url("../assets/imgs/homeCelu.JPG");
-        height: 1300px;
+        height: 1181px;
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -398,7 +398,7 @@ footer div h5{
     }
     .carousel-item img{
         margin-top: 2%;
-        height: 400px;
+        height: 320px;
     }
   
     
